@@ -1,0 +1,15 @@
+export const COLLECTIONS = {
+  shops: "shops",
+  users: "users",
+  customers: "customers",
+  serviceRequests: "serviceRequests",
+  workOrders: "workOrders",
+  inventoryItems: "inventoryItems",
+  inventoryTransactions: "inventoryTransactions",
+  expenses: "expenses",
+  workers: "workers",
+  attendance: "attendance",
+  bills: "bills",
+  ledgerEntries: "ledgerEntries",
+  qrLinks: "qrLinks",
+} as const;

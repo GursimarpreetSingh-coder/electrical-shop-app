@@ -1,0 +1,11 @@
+{
+  "name": "Voltix ERP - Rattan Electricals",
+  "short_name": "Voltix",
+  "description": "Electrical shop service requests and ERP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050508",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait-primary",
+  "icons": []
+}
