@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
     "@hookform/resolvers": "^5.2.2",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",

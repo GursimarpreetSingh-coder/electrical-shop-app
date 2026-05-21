@@ -32,11 +32,18 @@ export default function BillingPage() {
   const { register, control, handleSubmit, watch } = useForm<BillFormData>({
     resolver: zodResolver(billSchema),
     defaultValues: {
-      lineItems: [{ description: "", qty: 1, rate: 0, amount: 0 }],
+      customerId: "",
+      lineItems: [
+        {
+          description: "",
+          qty: 1,
+          rate: 0,
+          amount: 0,
+        },
+      ],
       paid: 0,
     },
   });
-
   const { fields, append } = useFieldArray({ control, name: "lineItems" });
   const customerId = watch("customerId");
 

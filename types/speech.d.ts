@@ -2,6 +2,7 @@ interface SpeechRecognition extends EventTarget {
   lang: string;
   continuous: boolean;
   interimResults: boolean;
+  maxAlternatives: number;
   start(): void;
   stop(): void;
   onresult: ((event: SpeechRecognitionEvent) => void) | null;

@@ -60,7 +60,7 @@ export const billSchema = z.object({
       amount: z.coerce.number().min(0),
     })
   ).min(1),
-  paid: z.coerce.number().min(0).default(0),
+  paid: z.coerce.number().min(0),
 });
 
 export const loginEmailSchema = z.object({
